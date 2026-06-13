@@ -1,0 +1,322 @@
+[0.008s] Invoking command in '/home/minh/ktlt_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/minh/ktlt_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/minh/ktlt_ws/install/micro_ros_agent
+[0.014s] Not searching for unused variables given on the command line.
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.062s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.166s] -- Detecting CXX compiler ABI info
+[0.230s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.261s] -- Configuring done
+[0.263s] -- Generating done
+[0.264s] -- Build files have been written to: /home/minh/ktlt_ws/build/micro_ros_agent
+[0.267s] Invoked command in '/home/minh/ktlt_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/minh/ktlt_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/minh/ktlt_ws/install/micro_ros_agent
+[0.268s] Invoking command in '/home/minh/ktlt_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/minh/ktlt_ws/build/micro_ros_agent -- -j16 -l16
+[0.307s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[0.368s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[0.385s] Cloning into 'xrceagent'...
+[1.938s] HEAD is now at 57d0862 Release v2.4.2
+[1.987s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[2.011s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[2.032s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[2.041s] loading initial cache file /home/minh/ktlt_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[2.082s] -- The C compiler identification is GNU 11.4.0
+[2.087s] -- Detecting C compiler ABI info
+[2.143s] -- Detecting C compiler ABI info - done
+[2.147s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.147s] -- Detecting C compile features
+[2.148s] -- Detecting C compile features - done
+[2.186s] -- The CXX compiler identification is GNU 11.4.0
+[2.191s] -- Detecting CXX compiler ABI info
+[2.255s] -- Detecting CXX compiler ABI info - done
+[2.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.259s] -- Detecting CXX compile features
+[2.259s] -- Detecting CXX compile features - done
+[2.264s] -- Looking for pthread.h
+[2.325s] -- Looking for pthread.h - found
+[2.325s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.383s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.383s] -- Found Threads: TRUE  
+[2.391s] -- Configuring done
+[2.393s] -- Generating done
+[2.393s] -- Build files have been written to: /home/minh/ktlt_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[2.411s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[2.444s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[2.504s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[2.523s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[2.542s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[2.562s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[2.569s] loading initial cache file /home/minh/ktlt_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[2.572s] -- Setting build type to 'Release' as none was specified.
+[2.596s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.596s]   The package name passed to `find_package_handle_standard_args` (tinyxml2)
+[2.596s]   does not match the name of the calling package (TinyXML2).  This can lead
+[2.596s]   to problems in calling code that expects `find_package` result variables
+[2.596s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.596s] Call Stack (most recent call first):
+[2.596s]   cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+[2.596s]   /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+[2.596s]   CMakeLists.txt:153 (find_package)
+[2.596s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.596s] [0m
+[2.596s] -- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+[2.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.655s] -- Configuring done
+[2.662s] -- Generating done
+[2.663s] -- Build files have been written to: /home/minh/ktlt_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[2.679s] [ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[2.719s] [ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[2.719s] [ 16%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[2.719s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[2.719s] [ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[2.720s] [ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[2.720s] [ 26%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[2.720s] [ 28%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[2.720s] [ 30%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[2.720s] [ 33%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[2.720s] [ 35%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[2.725s] [ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[3.214s] [ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[3.268s] [ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[3.688s] [ 45%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[3.898s] [ 47%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[3.899s] [ 50%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[3.962s] [ 52%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[4.045s] [ 54%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[4.199s] [ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[5.702s] [ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[6.032s] [ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[6.269s] [ 64%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[6.300s] [ 66%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[6.336s] [ 69%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[6.614s] [ 71%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[6.654s] [ 73%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[7.088s] [ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[7.219s] [ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[7.940s] [ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[8.085s] [ 83%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[8.518s] [ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[8.823s] [ 88%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o[0m
+[9.647s] [ 90%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o[0m
+[9.669s] [ 92%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o[0m
+[9.704s] [ 95%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[9.767s] [ 97%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[14.586s] [100%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[14.819s] [100%] Built target microxrcedds_agent
+[14.841s] [34m[1mNo install step for 'uagent'[0m
+[14.861s] [34m[1mCompleted 'uagent'[0m
+[14.887s] Built target uagent
+[14.909s] [ 43%] [34m[1mPerforming install step for 'xrceagent'[0m
+[14.943s] [35m[1mConsolidate compiler generated dependencies of target microxrcedds_agent[0m
+[14.982s] [100%] Built target microxrcedds_agent
+[14.999s] [36mInstall the project...[0m
+[15.005s] -- Install configuration: "Release"
+[15.005s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4
+[15.008s] -- Set runtime path of "/home/minh/ktlt_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp
+[15.008s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/participant
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/logger
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/topic
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/object
+[15.009s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/processor
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/requester
+[15.010s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/datawriter
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/reader
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced
+[15.011s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/datareader
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+[15.012s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/util
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/udp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+[15.013s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/custom
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+[15.014s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/can
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/scheduler
+[15.015s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/publisher
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/p2p
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/subscriber
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/replier
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session
+[15.016s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/message
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+[15.017s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+[15.018s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/include/uxr/agent/config.hpp
+[15.018s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE
+[15.018s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+[15.018s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake
+[15.033s] [ 50%] [34m[1mCompleted 'xrceagent'[0m
+[15.060s] [ 50%] Built target xrceagent
+[15.077s] [ 56%] [34m[1mCreating directories for 'micro_ros_agent'[0m
+[15.134s] [ 62%] [34m[1mNo download step for 'micro_ros_agent'[0m
+[15.153s] [ 68%] [34m[1mNo update step for 'micro_ros_agent'[0m
+[15.173s] [ 75%] [34m[1mNo patch step for 'micro_ros_agent'[0m
+[15.193s] [ 81%] [34m[1mPerforming configure step for 'micro_ros_agent'[0m
+[15.200s] loading initial cache file /home/minh/ktlt_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake
+[15.204s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[15.307s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[15.448s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.451s] -- Looking for C++ include pthread.h
+[15.519s] -- Looking for C++ include pthread.h - found
+[15.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.589s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.589s] -- Found Threads: TRUE  
+[15.594s] -- Found rosidl_cmake: 3.1.8 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[15.596s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[15.614s] -- Found fastrtps_cmake_module: 2.2.4 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[15.616s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[15.642s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[15.649s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[15.654s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.664s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.678s] -- Found rmw_fastrtps_shared_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[15.726s] -- Found FastRTPS: /opt/ros/humble/include  
+[15.728s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.730s] -- Found ament_cmake_gtest: 1.3.13 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[15.730s] -- Found micro_ros_msgs: 3.0.1 (/home/minh/ktlt_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[15.782s] -- Configuring done
+[15.788s] -- Generating done
+[15.790s] -- Build files have been written to: /home/minh/ktlt_ws/build/micro_ros_agent
+[15.809s] [ 87%] [34m[1mPerforming build step for 'micro_ros_agent'[0m
+[15.844s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[15.844s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[15.844s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[15.844s] [ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[15.844s] [ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[18.296s] [100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[18.542s] [100%] Built target micro_ros_agent
+[18.563s] [34m[1mNo install step for 'micro_ros_agent'[0m
+[18.582s] [34m[1mCompleted 'micro_ros_agent'[0m
+[18.611s] Built target micro_ros_agent
+[18.620s] Invoked command in '/home/minh/ktlt_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/minh/ktlt_ws/build/micro_ros_agent -- -j16 -l16
+[18.622s] Invoking command in '/home/minh/ktlt_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/minh/ktlt_ws/build/micro_ros_agent
+[18.628s] -- Install configuration: ""
+[18.628s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[18.629s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[18.630s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.630s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[18.630s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[18.630s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[18.630s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[18.631s] -- Set runtime path of "/home/minh/ktlt_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+[18.631s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[18.631s] -- Installing: /home/minh/ktlt_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[18.633s] Invoked command in '/home/minh/ktlt_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs:/home/minh/ktlt_ws/install/micro_ros_setup:/home/minh/ros2_ws/install/my_robot_interfaces:/home/minh/ros2_ws/install/my_robot_description:/home/minh/ros2_ws/install/my_robot_bringup:/home/minh/install/my_robot_interfaces:/home/minh/install/my_robot_description:/home/minh/install/my_robot_bringup:/home/minh/ros2_ws/install/my_py_pkg:/home/minh/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/minh/ktlt_ws/install/micro_ros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/minh/ktlt_ws/build/micro_ros_agent

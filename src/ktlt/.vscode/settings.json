@@ -1,0 +1,19 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/minh/ur5_teleop_vive/install/ur5_teleop_vive/lib/python3.10/site-packages",
+        "/home/minh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/minh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/minh/ur5_teleop_vive/install/ur5_teleop_vive/lib/python3.10/site-packages",
+        "/home/minh/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/minh/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/minh/ktlt_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
