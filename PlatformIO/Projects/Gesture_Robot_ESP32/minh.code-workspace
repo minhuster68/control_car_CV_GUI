@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"name": "Gesture_Robot_ESP32",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
