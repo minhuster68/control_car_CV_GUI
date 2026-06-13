@@ -17,7 +17,7 @@ Hệ thống hoạt động dựa trên mô hình truyền nhận phân tầng t
 
 ## 🔌 2. Sơ Đồ Đấu Nối Phần Cứng (Hardware Connection Setup)
 
-Để đảm bảo hệ thống bám dòng xung ổn định, không bị nhiễu điện áp xung PWM hay sập nguồn đột ngột (Drop VIN) trên laptop LOQ và mạch, phần cứng phải được cấu hình đồng bộ Mass như sau:
+Để đảm bảo hệ thống bám dòng xung ổn định, không bị nhiễu điện áp xung PWM hay sập nguồn đột ngột (Drop VIN) trên laptop và mạch, phần cứng phải được cấu hình đồng bộ Mass như sau:
 
 ### 2.1 Cấu Hình Khối Nguồn và Hạ Áp
 * **Nguồn Pin chính (11.1V - 12V Li-Po/Acquy):**
@@ -59,36 +59,50 @@ sudo apt install python3-pip
 # Cài đặt các thư viện Python chuyên dụng xử lý ảnh và AI
 pip3 install pyqt5 opencv-python mediapipe numpy
 
-3.2 Cấu Hình Mã Nguồn Trên Mạch ESP32
+3.2 Hướng Dẫn Kiểm Tra Địa Chỉ IP Trên Ubuntu
 
-Mở mã nguồn C++ (main.cpp) bằng Arduino IDE hoặc PlatformIO, tìm đến khối cấu hình Wi-Fi trong hàm setup() để đồng bộ thông số trạm:
+Để ESP32 có thể định tuyến chính xác gói tin UDP đến máy tính, bạn cần lấy địa chỉ IP của Laptop trong mạng Wi-Fi bằng cách mở Terminal và chạy lệnh sau:
+Bash
+
+hostname -I
+
+Cách đọc kết quả:
+
+    Lệnh sẽ trả về các dãy số IP phân cách bằng dấu cách. Bạn chỉ cần sao chép dãy số đầu tiên ngoài cùng bên trái (Ví dụ: 172.20.10.4). Đó chính là địa chỉ mạng hiện tại của Laptop.
+
+3.3 Cấu Hình Mã Nguồn Trên Mạch ESP32 (Sử Dụng Wi-Fi Phát Từ Điện Thoại)
+
+Để đảm bảo đường truyền không dây không bị chặn bởi tường lửa mạng công cộng hoặc cơ chế cô lập thiết bị, bắt buộc phải sử dụng Điểm phát sóng di động (Mobile Hotspot) từ điện thoại cá nhân để cả Laptop và ESP32 cùng kết nối vào.
+
+Mở mã nguồn C++ (main.cpp) của ESP32, tìm đến khối cấu hình Wi-Fi trong hàm setup() và cập nhật thông số:
 C++
 
-char ssid[] = "TÊN_WIFI_CỦA_BẠN";
-char pass[] = "MẬT_KHẨU_WIFI";
-char ip[]   = "IP_MÁY_TÍNH_UBUNTU"; // Lấy bằng lệnh 'ip a' hoặc 'ifconfig' trên Ubuntu
+char ssid[] = "TÊN_WIFI_ĐIỆN_THOẠI_CỦA_BẠN";
+char pass[] = "MẬT_KHẨU_WIFI_ĐIỆN_THOẠI";
+char ip[]   = "IP_MÁY_TÍNH_UBUNTU_VỪA_CHECK"; // Điền dãy số đầu tiên thu được từ lệnh 'hostname -I'
 
-Lưu ý an toàn hệ thống mạng: Tránh dùng mạng Wi-Fi công cộng hoặc mạng trường học vì tính năng cô lập thiết bị (AP Isolation) sẽ chặn gói tin UDP. Nên dùng điểm phát sóng di động (Mobile Hotspot) từ điện thoại hoặc phát trực tiếp từ card mạng Wi-Fi của máy tính Ubuntu.
 🚀 4. Hướng Dẫn Vận Hành Hệ Thống (Deployment Steps)
 
-Thực hiện chuẩn xác theo chuỗi 4 bước sau để kích hoạt hệ thống:
-Bước 1: Mở cổng kết nối ROS không dây (Tắt Firewall)
+Thực hiện chuẩn xác theo chuỗi 3 bước sau để kích hoạt hệ thống:
+Bước 1: Tắt tường lửa hệ thống và mở cổng kết nối Micro-ROS Agent
 
-Đảm bảo tường lửa không chặn cổng giao tiếp và khởi chạy Micro-ROS Agent trên máy tính:
+Mở một Terminal mới trên máy tính Ubuntu để mở cổng nhận dữ liệu không dây truyền từ xe:
 Bash
 
 sudo ufw disable
 ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
 
-Bước 2: Khởi động xe Robot
+Bước 2: Khởi động xe Robot ESP32 và đồng bộ kết nối
 
-    Cấp nguồn cho xe. Đèn LED D2 trên ESP32 sẽ nháy chậm (500ms/lần) để báo hiệu đang dò tìm và ping trạm máy tính qua Wi-Fi.
+    Cấp nguồn pin cho xe robot.
 
-    Khi kết nối thông suốt, Terminal Agent sẽ báo dòng chữ session established. Đèn D2 sẽ tắt lịm để chuyển sang chế độ chờ nhận lệnh.
+    Bắt buộc: Ngay sau khi lệnh khởi động Agent ở Bước 1 chuyển sang trạng thái running..., bạn phải bấm nút EN (Reset) trên bo mạch ESP32 để mạch thực hiện chu trình khởi động lại và gõ cửa trạm kết nối.
 
-Bước 3: Cấu hình biến môi trường và chạy giao diện
+    Đèn LED D2 trên ESP32 sẽ nháy chậm (500ms/lần) để báo hiệu đang dò tìm mạng. Khi kết nối thông suốt, Terminal Agent sẽ nhảy thông báo session established. Lúc này đèn D2 sẽ tắt hẳn để chuyển sang chế độ chờ nhận lệnh điều tốc.
 
-Mở một Terminal mới tại thư mục chứa mã nguồn Python, chạy các lệnh loại bỏ chế độ cô lập cục bộ của ROS 2 để truyền nhận dữ liệu ra card mạng Wi-Fi:
+Bước 3: Cấu hình biến môi trường và chạy giao diện điều khiển
+
+Mở một Terminal hoàn toàn mới tại thư mục chứa mã nguồn Python, chạy các lệnh cấu hình mạng truyền thông ngoài phân vùng Localhost cho ROS 2 và khởi động giao diện chính:
 Bash
 
 export ROS_LOCALHOST_ONLY=0
