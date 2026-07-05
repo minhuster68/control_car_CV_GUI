@@ -107,25 +107,5 @@ Bash
 
 export ROS_LOCALHOST_ONLY=0
 export ROS_DOMAIN_ID=0
-python3 pro_dashboard.py
+python3 GUI.py
 
-🛠️ 5. Các Chế Độ Điều Khiển Trên Giao Diện (Control Modes)
-
-Giao diện áp dụng cơ chế quản lý Quyền điều khiển tối cao (Control Authority) để bảo vệ an toàn cho robot:
-1. Chế độ Thủ Công (MANUAL CONTROL MODE)
-
-    Giao diện D-Pad: Sử dụng hệ thống 5 nút điều hướng chữ thập: TIẾN, LÙI, TRÁI, PHẢI và DỪNG.
-
-    Thanh Ga Tổng (Speed Slider): Cho phép giới hạn dải tốc độ tối đa của xe dựa trên thông số cơ khí thực tế (Bán kính bánh xe R=0.035 m, Tốc độ động cơ tối đa 150 RPM→vmax​=0.55 m/s). Thanh trượt nhận giá trị nguyên từ 5 đến 55 tương ứng dải vận tốc an toàn từ 0.05 m/s đến 0.55 m/s.
-
-2. Chế độ Cử Chỉ Tay (AI VISION GESTURE MODE)
-
-    Nhấn nút màu tím KÍCH HOẠT: ĐIỀU KHIỂN CỬ CHỈ TAY (AI VISION).
-
-    Cơ chế khóa an toàn (Control Locking): Giao diện sẽ lập tức làm mờ (Grey-out) và khóa toàn bộ chức năng của Slider và các nút bấm D-pad thủ công để tránh xung đột dữ liệu điều khiển.
-
-    Nguyên lý bướm ga AI: * Khoảng cách pixel giữa đầu ngón cái (Landmark 4) và ngón trỏ (Landmark 8) được ánh xạ tuyến tính thành dải tốc độ động cơ tự động từ 0 đến 150 RPM.
-
-        Nếu gập ngón út xuống (Tọa độ Y của Landmark 20 lớn hơn Landmark 17), thuật toán sẽ nhận diện xe vào số lùi (Đảo dấu RPM thành số âm).
-
-    Màn hình hiển thị: Tốc độ thực tế RPM được tính toán độc lập cho từng bàn tay (Tay trái - Bánh trái, Tay phải - Bánh phải) và in trực tiếp lên chóp ngón trỏ. Vận tốc tổng hợp V,W được giám sát ở góc trên màn hình luồng Video.
